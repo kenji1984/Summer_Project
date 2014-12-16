@@ -1,0 +1,150 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 17, 2014, 10:59:11 PM
+    Author     : kenbui
+*/
+
+*{
+    font-family: arial;
+    font-size: 14px;
+}
+
+body{
+    background-image: url('../images/car.jpg');
+    background-attachment: fixed;
+    background-position: right;
+}
+
+.descrpt{
+    font-size: 10px; 
+    color: #090091;
+}
+
+.zoom{
+    float:right;
+    vertical-align: top;
+    margin-right: 5px;
+}
+
+.sep{
+    float: right;
+}
+
+label, .title{
+    font-weight: bold;
+}
+
+main{
+    width: 98%;
+    border: gray solid 1px;
+    padding: 10px 20px 10px 20px;
+    background-color: #ebf1f3;
+}
+
+.label{
+    background-color: #9fc7d6;
+    border-style: solid;
+    border-color: #dddddd;
+    border-top-color: black;
+    border-width: 1px;
+    padding: 5px 0px 10px 5px;
+}
+
+.textbox{
+    width: 200px;
+    height: 20px;
+}
+
+#time{
+    width: 200px;
+    height: 20px;
+}
+
+textarea{
+    height: 100px;
+    width: 300px;
+    display: block;
+}
+
+.require{
+    font-size: 11px;
+    color: red;
+}
+
+.table{
+    display: table;
+    padding: 10px 0px 10px 50px;
+    border:  #d2d2d2 solid 1px;
+    background-color: #dddddd;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.row{
+    display: table-row;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.col{
+    display: table-cell;
+    width: 50%;
+    vertical-align: top;
+}
+
+.right{
+    display: table-cell;
+    float: left;
+    margin-left: auto;
+}
+
+.expand{
+    float: left;
+    margin-left: 90%;
+}
+
+.third_cell{
+    display: table-cell;
+    width: 5%;
+    vertical-align: bottom;
+}
+
+.reset{
+    font-size: 12px;
+}
+img:hover, .reset:hover{
+    color: red;
+    cursor: pointer;
+}
+
+#grey{
+    color: #b9b9b9
+}
+
+.submit{
+    display: table-row;
+    width: content-box;
+    color: #b90e25;
+    float: right;
+    margin-right: 90%;
+}
+
+#submit{
+   // -webkit-appearance: none;
+    zoom: 130%;
+    color: #b90e25;
+    background-color: #ffffff;
+}
+
+#submit:hover{
+    background-color: #b9b9b9;
+}
+
+.focus{
+    background-color: #baf9df;
+}
